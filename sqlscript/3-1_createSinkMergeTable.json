@@ -1,8 +1,8 @@
 {
-	"name": "3-1_createSinkUnionTable",
+	"name": "3-1_createSinkMergeTable",
 	"properties": {
 		"content": {
-			"query": "CREATE TABLE [dbo].[SinkUnionTable]\n(\n    id nvarchar(10),\n\tfirst_name nvarchar(20),\n    last_name nvarchar(20),\n    email nvarchar(30),\n    gender nvarchar(20),\n    ip_address nvarchar(20),\n    year nvarchar(4)\n)\nWITH\n(\n    DISTRIBUTION = ROUND_ROBIN,\n    CLUSTERED COLUMNSTORE INDEX\n)\nGO",
+			"query": "CREATE TABLE [dbo].[SinkMergeTable]\n(\n    id nvarchar(10),\n\tfirst_name nvarchar(20),\n    last_name nvarchar(20),\n    email nvarchar(30),\n    gender nvarchar(20),\n    ip_address nvarchar(20),\n    year nvarchar(4)\n)\nWITH\n(\n    DISTRIBUTION = ROUND_ROBIN,\n    CLUSTERED COLUMNSTORE INDEX\n)\nGO",
 			"metadata": {
 				"language": "sql"
 			},
