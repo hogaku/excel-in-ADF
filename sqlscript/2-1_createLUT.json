@@ -1,0 +1,17 @@
+{
+	"name": "2-1_createLUT",
+	"properties": {
+		"content": {
+			"query": "CREATE TABLE [dbo].[SheetLUT](\n   [SheetName] [nvarchar](10),\n   [TableName] [nvarchar](20)\n)",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "d_sql",
+				"poolName": "d_sql"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

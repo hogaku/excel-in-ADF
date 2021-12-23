@@ -1,0 +1,17 @@
+{
+	"name": "2-3_InsertData",
+	"properties": {
+		"content": {
+			"query": " INSERT INTO [dbo].[SheetLUT] VALUES ('2020','SinkTable2020');\n INSERT INTO [dbo].[SheetLUT] VALUES ('2021','SinkTable2021');",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "d_sql",
+				"poolName": "d_sql"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

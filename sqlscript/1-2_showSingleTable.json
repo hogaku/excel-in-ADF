@@ -1,0 +1,17 @@
+{
+	"name": "1-2_showSingleTable",
+	"properties": {
+		"content": {
+			"query": "SELECT TOP (100) [id]\n,[first_name]\n,[last_name]\n,[email]\n,[gender]\n,[ip_address]\n,[year]\n FROM [dbo].[SingleTable]",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "d_sql",
+				"poolName": "d_sql"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
