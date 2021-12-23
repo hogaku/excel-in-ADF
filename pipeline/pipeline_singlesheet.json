@@ -1,5 +1,5 @@
 {
-	"name": "pattern1Pipeline",
+	"name": "pipeline_singlesheet",
 	"properties": {
 		"activities": [
 			{

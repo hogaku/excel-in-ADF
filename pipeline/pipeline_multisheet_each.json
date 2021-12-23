@@ -1,5 +1,5 @@
 {
-	"name": "pipeline_Multisheet_each",
+	"name": "pipeline_multisheet_each",
 	"properties": {
 		"activities": [
 			{
